@@ -1,18 +1,13 @@
 package module;
 
-import java.io.File;
-import java.io.IOException;
-import java.net.URI;
-import java.net.URL;
-import java.util.Properties;
-import java.util.logging.FileHandler;
+
 
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.testng.annotations.Test;
 
-public class LaunchApplication {
+public class launchapplication {
 	
 	public static WebDriver driver;
 	

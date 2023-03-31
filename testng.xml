@@ -3,7 +3,7 @@
 <suite name="Suite">
   <test name="Test">
     <classes>
-      <class name="module.LaunchApplication"/>
+      <class name="module.launchapplication"/>
     </classes>
   </test> <!-- Test -->
 </suite> <!-- Suite -->

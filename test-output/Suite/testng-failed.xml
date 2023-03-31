@@ -3,11 +3,11 @@
 <suite parallel="none" name="Failed suite [Suite]">
   <test parallel="none" name="Test(failed)">
     <classes>
-      <class name="module.LaunchApplication">
+      <class name="module.launchapplication">
         <methods>
           <include name="TC1"/>
         </methods>
-      </class> <!-- module.LaunchApplication -->
+      </class> <!-- module.launchapplication -->
     </classes>
   </test> <!-- Test(failed) -->
 </suite> <!-- Failed suite [Suite] -->

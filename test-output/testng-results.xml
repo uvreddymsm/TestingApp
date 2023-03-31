@@ -6,12 +6,12 @@
     <groups>
     </groups>
     <test started-at="2023-03-31T04:43:42Z" name="Test" finished-at="2023-03-31T04:43:57Z" duration-ms="14325">
-      <class name="module.LaunchApplication">
+      <class name="module.launchapplication">
         <test-method signature="TC1()[pri:0, instance:module.LaunchApplication@6b58b9e9]" started-at="2023-03-31T10:13:42Z" name="TC1" finished-at="2023-03-31T10:13:57Z" duration-ms="14294" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- TC1 -->
-      </class> <!-- module.LaunchApplication -->
+      </class> <!-- module.launchapplication -->
     </test> <!-- Test -->
   </suite> <!-- Suite -->
 </testng-results>
