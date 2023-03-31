@@ -34,7 +34,7 @@ public class LaunchApplication {
 	}
 
 	@Test
-	public void TC2() throws InterruptedException, IOException {
+	public void TC2() {
 
 		System.out.println("Test Case Executed Completed Buddy 1");
 	}
