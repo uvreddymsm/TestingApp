@@ -33,4 +33,13 @@ public class LaunchApplication {
 		Thread.sleep(2000);
 		System.out.println("Test Case Executed Completed Buddy");
 	}
+
+	@Test
+	public void TC2() throws InterruptedException, IOException {
+		// TODO Auto-generated method stub
+
+
+
+		System.out.println("Test Case Executed Completed Buddy");
+	}
 }
