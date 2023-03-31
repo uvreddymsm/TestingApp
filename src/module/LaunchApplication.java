@@ -19,7 +19,7 @@ public class LaunchApplication {
 	
 	
 	@Test
-	public void TC1() throws InterruptedException, IOException {
+	public void TC1()  {
 		// TODO Auto-generated method stub
 
 	
@@ -30,13 +30,12 @@ public class LaunchApplication {
 		driver.manage().window().maximize();
 		driver.findElement(By.id("twotabsearchtextbox")).sendKeys("IPHONE");
 		driver.findElement(By.id("nav-search-submit-button")).click();
-		Thread.sleep(2000);
 		System.out.println("Test Case Executed Completed Buddy");
 	}
 
 	@Test
 	public void TC2() throws InterruptedException, IOException {
-		// TODO Auto-generated method stub
+
 		System.out.println("Test Case Executed Completed Buddy 1");
 	}
 }
