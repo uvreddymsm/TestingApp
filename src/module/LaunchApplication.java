@@ -37,9 +37,6 @@ public class LaunchApplication {
 	@Test
 	public void TC2() throws InterruptedException, IOException {
 		// TODO Auto-generated method stub
-
-
-
-		System.out.println("Test Case Executed Completed Buddy");
+		System.out.println("Test Case Executed Completed Buddy 1");
 	}
 }
