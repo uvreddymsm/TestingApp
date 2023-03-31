@@ -31,5 +31,6 @@ public class LaunchApplication {
 		driver.findElement(By.id("twotabsearchtextbox")).sendKeys("IPHONE");
 		driver.findElement(By.id("nav-search-submit-button")).click();
 		Thread.sleep(2000);
+		System.out.println("Test Case Executed Completed Buddy");
 	}
 }
