@@ -18,7 +18,7 @@ public class launchapplication {
 		// TODO Auto-generated method stub
 
 	
-		System.setProperty("webdriver.chrome.driver", "./Library/chromedriver1.exe");
+		 System.setProperty("webdriver.chrome.driver","C:\\Users\\Admin\\Downloads\\chromedriver_win32 (5)\\chromedriver.exe");
 		
 		driver=new ChromeDriver();
 		driver.get("https://www.amazon.in/");
