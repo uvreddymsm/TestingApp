@@ -1,8 +1,6 @@
 package module;
 
 
-
-import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.testng.annotations.Test;
@@ -21,10 +19,10 @@ public class launchapplication {
 
 		System.setProperty("webdriver.chrome.driver",System.getProperty("user.dir")+"\\Library\\chromedriver.exe");
 		driver=new ChromeDriver();
-		driver.get("https://www.amazon.in/");
+		driver.get("https://www.flipkart.com/");
 		driver.manage().window().maximize();
-		driver.findElement(By.id("twotabsearchtextbox")).sendKeys("IPHONE");
-		driver.findElement(By.id("nav-search-submit-button")).click();
+//		driver.findElement(By.id("twotabsearchtextbox")).sendKeys("IPHONE");
+//		driver.findElement(By.id("nav-search-submit-button")).click();
 		System.out.println("Test Case Executed Completed Buddy");
 	}
 

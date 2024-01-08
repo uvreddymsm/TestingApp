@@ -22,5 +22,8 @@
     </CLASSES>
     <JAVADOC />
     <SOURCES />
+    <excluded>
+      <root url="jar://$PROJECT_DIR$/Library/testng-6.8.jar!/" />
+    </excluded>
   </library>
 </component>

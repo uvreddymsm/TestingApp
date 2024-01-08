@@ -1,58 +1,20 @@
 package utility;
 
 
-
-import java.awt.AWTException;
-import java.awt.GraphicsConfiguration;
-import java.awt.GraphicsEnvironment;
-import java.awt.Robot;
-import java.awt.Toolkit;
-import java.awt.datatransfer.Clipboard;
-import java.awt.datatransfer.StringSelection;
-import java.awt.event.KeyEvent;
-import java.io.File;
-import java.io.FileInputStream;
-import java.io.IOException;
-import java.sql.Connection;
-import java.sql.DriverManager;
-import java.sql.ResultSet;
-import java.sql.SQLException;
-import java.sql.Statement;
-import java.text.DateFormat;
-import java.text.Format;
-import java.text.SimpleDateFormat;
-import java.util.Date;
-import java.util.LinkedList;
-import java.util.List;
-import java.util.Map;
-import java.util.NoSuchElementException;
-import java.util.Properties;
-import java.util.concurrent.TimeUnit;
-
-import org.apache.commons.codec.EncoderException;
-import org.apache.commons.io.FileUtils;
 import org.openqa.selenium.By;
 import org.openqa.selenium.JavascriptExecutor;
-import org.openqa.selenium.Keys;
-import org.openqa.selenium.OutputType;
-import org.openqa.selenium.TakesScreenshot;
 import org.openqa.selenium.WebDriver;
-import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.chrome.ChromeOptions;
 import org.openqa.selenium.firefox.FirefoxDriver;
 import org.openqa.selenium.ie.InternetExplorerDriver;
-import org.openqa.selenium.interactions.Actions;
-import org.openqa.selenium.support.ui.ExpectedConditions;
-import org.openqa.selenium.support.ui.FluentWait;
-import org.openqa.selenium.support.ui.Select;
-import org.openqa.selenium.support.ui.Wait;
-import org.testng.ITestResult;
-import org.testng.annotations.Test;
 
-
-import com.google.common.base.Function;
-import com.relevantcodes.extentreports.LogStatus;
+import java.io.FileInputStream;
+import java.text.DateFormat;
+import java.text.SimpleDateFormat;
+import java.util.Date;
+import java.util.Map;
+import java.util.Properties;
 
 
 
